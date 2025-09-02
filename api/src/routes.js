@@ -1,7 +1,7 @@
 const express = require("express");
 const routes = express.Router();
 
-Router.get("/",(req, res)=>{
+routes.get("/",(req, res)=>{
     res.json({
         message: "API de Plantas",
         routes:[
