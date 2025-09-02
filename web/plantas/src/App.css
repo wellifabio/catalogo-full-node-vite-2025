@@ -21,6 +21,8 @@ header, footer{
 main{
   width: 100%;
   height: 80vh;
+  padding-left: 100px;
+  padding-right: 100px;
   background-color: var(--c1);
   display: flex;
   flex-wrap: wrap;
@@ -40,5 +42,23 @@ main{
   & img{
     max-width: 100%;
     border-radius: 4px;
+  }
+}
+
+.faixa{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .card {
+    width: 100%;
   }
 }
