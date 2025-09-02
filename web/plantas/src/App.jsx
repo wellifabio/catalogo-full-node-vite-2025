@@ -24,8 +24,10 @@ function App() {
       {
         plantas.map( planta => (
           <div key={planta.id} className="card">
-            <h2>{planta.nome}</h2>
-            <p>{planta.descricao}</p>
+            <h2>Planta: {planta.nome}</h2>
+            <p>Nome científico: {planta.nomeCientifico}</p>
+            <p>Descrição: {planta.descricao}</p>
+            <img src={planta.imagem} alt={planta.nome} />
           </div>
         ))
       }
