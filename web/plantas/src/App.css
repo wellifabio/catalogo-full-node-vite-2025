@@ -5,6 +5,7 @@ body{
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  color: var(--c4);
 }
 
 header, footer{
