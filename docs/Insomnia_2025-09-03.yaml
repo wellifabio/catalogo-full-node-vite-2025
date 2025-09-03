@@ -1,0 +1,467 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1741697361940
+  modified: 1741697361940
+  description: ""
+collection:
+  - name: SafeEdu
+    meta:
+      id: fld_6572ec9af8ad4c10a235416fb18b97f9
+      created: 1753731947719
+      modified: 1753731947719
+      sortKey: -1753731947719
+      description: ""
+    children:
+      - name: Remoto
+        meta:
+          id: fld_86e6b1a2ede0406095f708eed6166c31
+          created: 1754337424813
+          modified: 1754337424813
+          sortKey: -1754337424813
+          description: ""
+      - name: Local
+        meta:
+          id: fld_22a079adf5b841bdb156488b5d964219
+          created: 1754337441448
+          modified: 1754337441448
+          sortKey: -1754337441448
+          description: ""
+  - name: API Dummy
+    meta:
+      id: fld_f41d66f2fdae40909973aeb55c5ff0ff
+      created: 1753789269518
+      modified: 1753872092299
+      sortKey: -1753871932842
+      description: ""
+  - name: API PlaceHolder
+    meta:
+      id: fld_cd6a50d20c2e42b08b32e98f46c6d606
+      created: 1753789517599
+      modified: 1753872089899
+      sortKey: -1753871932742
+      description: ""
+  - name: 1sem2025
+    meta:
+      id: fld_4df983d6d7964b5581e5b4d988c54c18
+      created: 1753871932642
+      modified: 1753871946840
+      sortKey: -1753871932642
+      description: ""
+    children:
+      - name: Restaurante
+        meta:
+          id: fld_a90098ac2d214256be05bd163994eca0
+          created: 1740747710762
+          modified: 1753872081288
+          sortKey: -1753871943550
+          description: ""
+      - name: PetShop
+        meta:
+          id: fld_6b87a1251262419eaa257128ef8eab64
+          created: 1742910480758
+          modified: 1753872085825
+          sortKey: -1753871943650
+          description: ""
+        children:
+          - name: Cliente
+            meta:
+              id: fld_abc053829e1c4cc8875c13828e3546e8
+              created: 1742910532853
+              modified: 1742931421253
+              sortKey: -1742910532853
+              description: ""
+          - name: Telefone
+            meta:
+              id: fld_a17cbcc1e23b450fb0597eca1f0392cf
+              created: 1742921595646
+              modified: 1742922954290
+              sortKey: -1742910526341.125
+              description: ""
+          - name: Pedido
+            meta:
+              id: fld_1653b6d49c84483fbcabf6766f752c7a
+              created: 1742922450835
+              modified: 1742922450835
+              sortKey: -1742910519829.25
+              description: ""
+      - name: Escola
+        meta:
+          id: fld_29e30b91b2024e26a01879628bcb742f
+          created: 1744220477468
+          modified: 1753872015842
+          sortKey: -1753871943450
+          description: ""
+        children:
+          - name: Aluno
+            meta:
+              id: fld_b08a1057c5c44d438a2d4c94d51632b4
+              created: 1744220485851
+              modified: 1744220485851
+              sortKey: -1744220485851
+              description: ""
+          - name: Professor
+            meta:
+              id: fld_c4a13ae2cf0e4117853006e32880b6ef
+              created: 1744221828381
+              modified: 1744221828381
+              sortKey: -1744220481659.5
+              description: ""
+          - name: Turma
+            meta:
+              id: fld_a5532be6293a4df798d21635e8d88546
+              created: 1744221944941
+              modified: 1744221944941
+              sortKey: -1744220479563.75
+              description: ""
+          - name: Disciplina
+            meta:
+              id: fld_dbd5c7c4766e4a22a8c5fcd1857c7276
+              created: 1744222060691
+              modified: 1744222060691
+              sortKey: -1744220478515.875
+              description: ""
+          - name: Matricula
+            meta:
+              id: fld_f79f01bd979c4a2090775daa50e7184e
+              created: 1744222178387
+              modified: 1744222178387
+              sortKey: -1744220477991.9375
+              description: ""
+      - name: Gof
+        meta:
+          id: fld_b3ba838c6dd244d2b8332e44f2d69aa8
+          created: 1744630709013
+          modified: 1753872012947
+          sortKey: -1753871943350
+          description: ""
+      - name: Pizzaria
+        meta:
+          id: fld_49fe1e0b9e5540e5952d069e07b9de94
+          created: 1744715501812
+          modified: 1753872009672
+          sortKey: -1753871943250
+          description: ""
+        children:
+          - name: Cliente
+            meta:
+              id: fld_93d3599a6ed54d48a74372be22e01a32
+              created: 1744715570280
+              modified: 1744715570280
+              sortKey: -1744715570280
+              description: ""
+          - name: Pizza
+            meta:
+              id: fld_b8e47f6777f94dc189cfa1eadaacc3df
+              created: 1744716136403
+              modified: 1744716136403
+              sortKey: -1744715536046
+              description: ""
+          - name: Pedido
+            meta:
+              id: fld_ed2688159afb4e068bb397c345a68541
+              created: 1744716606589
+              modified: 1744720076556
+              sortKey: -1744715518929
+              description: ""
+          - name: Item
+            meta:
+              id: fld_a85acf383f594a759b14139d585b6d22
+              created: 1744716802255
+              modified: 1744716802255
+              sortKey: -1744715510370.5
+              description: ""
+      - name: Pedidos Patterns
+        meta:
+          id: fld_51ef0a00607d474cae4dd461d0e8bae7
+          created: 1745930542373
+          modified: 1753872004346
+          sortKey: -1753871943150
+          description: ""
+        children:
+          - name: Pedido
+            meta:
+              id: fld_6e6270eec37e4766a49d9805e2b8ca8a
+              created: 1745934803564
+              modified: 1745934803564
+              sortKey: -1745934803564
+              description: ""
+          - name: Item
+            meta:
+              id: fld_93a94d44984b47a5bd1f41438640a9f5
+              created: 1745935751110
+              modified: 1745935751110
+              sortKey: -1745932672968.5
+              description: ""
+      - name: app88taxi
+        meta:
+          id: fld_1994f56b63ab4f0eb1e4df57bb2d960c
+          created: 1746622072098
+          modified: 1753902965087
+          sortKey: -1753871943050
+          description: ""
+        children:
+          - name: Passageiros
+            meta:
+              id: fld_86ee3d98c7f240af969b7efc2660677e
+              created: 1746622083520
+              modified: 1746622083520
+              sortKey: -1746622083520
+              description: ""
+          - name: Motoristas
+            meta:
+              id: fld_bf071b87ba3b47c99de0010394e9ec7e
+              created: 1746623338555
+              modified: 1746623751604
+              sortKey: -1746622077809
+              description: ""
+          - name: Viagens
+            meta:
+              id: fld_7dc327ab365e4888938397b24c27c05e
+              created: 1746623719245
+              modified: 1746623719245
+              sortKey: -1746622074953.5
+              description: ""
+      - name: Login
+        meta:
+          id: fld_3af94d086efe47fe883022c0693823dc
+          created: 1749215447450
+          modified: 1753871948193
+          sortKey: -1753871942950
+          description: ""
+        children:
+          - name: local
+            meta:
+              id: fld_8e238b111e884938a6d0de64a53e3947
+              created: 1749229632159
+              modified: 1749229632159
+              sortKey: -1749229632159
+              description: ""
+          - name: remoto
+            meta:
+              id: fld_460844ef46274589860d2b1a46945596
+              created: 1749229644739
+              modified: 1749229644739
+              sortKey: -1749229644739
+              description: ""
+      - name: pesslacamentos
+        meta:
+          id: fld_1e6fcc37da904ce682f98ce524bc06f2
+          created: 1750166015306
+          modified: 1753871942891
+          sortKey: -1753871942850
+          description: ""
+        children:
+          - name: Local
+            meta:
+              id: fld_57645201013446e6b3b2387062ecaabf
+              created: 1750254359655
+              modified: 1750254359655
+              sortKey: -1750254359655
+              description: ""
+  - name: pedidosapi
+    meta:
+      id: fld_8c36bf68a4ca478781016b4870fd4116
+      created: 1754487477144
+      modified: 1754487548139
+      sortKey: -1754487477144
+      description: ""
+    children:
+      - name: usuarios
+        meta:
+          id: fld_b03476b08b324ea499d2f842376c9029
+          created: 1754487557603
+          modified: 1754487585716
+          sortKey: -1754487575556
+          description: ""
+      - name: produtos
+        meta:
+          id: fld_9cd3c61a3ada4baba2c198fce7e157d5
+          created: 1754489755552
+          modified: 1754489755552
+          sortKey: -1754487526350
+          description: ""
+      - name: pedidos
+        meta:
+          id: fld_64cfb8ef17de41fcb86afaee39313d00
+          created: 1754489765435
+          modified: 1754490582377
+          sortKey: -1754487501747
+          description: ""
+  - name: catalogo-2025
+    meta:
+      id: fld_8cb6a0949a794661a31379e26224cf90
+      created: 1756832415546
+      modified: 1756832415546
+      sortKey: -1756832415546
+      description: ""
+    children:
+      - name: Plantas
+        meta:
+          id: fld_1fc7b233124e40e996b37db4b6b01fa2
+          created: 1756839205175
+          modified: 1756839205175
+          sortKey: -1756839205175
+          description: ""
+        children:
+          - url: http://localhost:3001/plantas
+            name: READ
+            meta:
+              id: req_7db983ff51ce4576a07fbcef6845fd57
+              created: 1756839207939
+              modified: 1756839244864
+              isPrivate: false
+              description: ""
+              sortKey: -1756839207939
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.4.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3001/plantas
+            name: CREATE
+            meta:
+              id: req_fc1afcc6fe8a4a01b67d634d65924bdb
+              created: 1756839269238
+              modified: 1756839362521
+              isPrivate: false
+              description: ""
+              sortKey: -1756835814365.5
+            method: POST
+            body:
+              mimeType: application/json
+              text: >-
+                {
+                	"nome":"Comigo ninguém pode",
+                	"nomeCientifico":"Dieffenbachia seguine",
+                	"descricao":"Dieffenbachia seguine (Jacq.) Schott, conhecida pelos nomes comuns de comigo-ninguém-pode e aningapara, é uma planta da família das Araceae muito apreciada como ornamental de interiores, dada a sua tolerância à baixa luminosidade ambiente e baixa umidade relativa do ar.",
+                	"imagem":"https://cdn.awsli.com.br/600x450/2446/2446161/produto/171051806/1c598ad1ee.jpg"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.4.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3001/plantas/1
+            name: UPDATE
+            meta:
+              id: req_aadc999193454ac4bccf14dfa5f3336a
+              created: 1756839386987
+              modified: 1756839437325
+              isPrivate: false
+              description: ""
+              sortKey: -1756834117578.75
+            method: PATCH
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"nome":"Comigo Ninguém Pode"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/11.4.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3001/plantas/3
+            name: DELETE
+            meta:
+              id: req_2398787d0e2d43c9815edc6afa29e7bb
+              created: 1756839456426
+              modified: 1756900755508
+              isPrivate: false
+              description: ""
+              sortKey: -1756833269185.375
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/11.4.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - url: http://localhost:3001
+        name: Testes
+        meta:
+          id: req_4ad97cbf458e43ed86eb66651971b0bf
+          created: 1756832420792
+          modified: 1756837550797
+          isPrivate: false
+          description: ""
+          sortKey: -1756832420792
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.4.0
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1741785010824
+    modified: 1756212128643
+  cookies:
+    - key: accessToken
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTYyMTIwMTEsImV4cCI6MTc1NjIxMjMxMX0.eNOV2m6A5mtmVXByu-Ce8Dflm_ybVvjyxqjOGrh8cEU
+      maxAge: 300
+      domain: dummyjson.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-07-29T11:41:32.844Z
+      lastAccessed: 2025-08-26T12:42:08.643Z
+      id: 1e39de64-f8f8-47b9-9383-35a4e23aaafc
+    - key: refreshToken
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NTYyMTIwMTEsImV4cCI6MTc1ODgwNDAxMX0.hJtIWoWl_tSuWksONL_jR6gO30P5AhEXQzuzof-mkRI
+      maxAge: 300
+      domain: dummyjson.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-07-29T11:41:32.845Z
+      lastAccessed: 2025-08-26T12:42:08.643Z
+      id: cc4ef0f6-82af-456d-a49d-371afa0a83d9
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1741785010734
+    modified: 1741785010734
+    isPrivate: false

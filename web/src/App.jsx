@@ -8,8 +8,16 @@ function App() {
   const [plantas, setPlantas] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [form, setForm] = useState({ nome: '', nomeCientifico: '', descricao: '', imagem: '' });
-  const handleOpenModal = () => setShowModal(true);
-  const handleCloseModal = () => setShowModal(false);
+
+  const handleOpenModal = () => {
+    setForm({ nome: '', nomeCientifico: '', descricao: '', imagem: '' });
+    setShowModal(true);
+  };
+  
+  const handleCloseModal = () => {
+    setForm({ nome: '', nomeCientifico: '', descricao: '', imagem: '' });
+    setShowModal(false);
+  };
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -18,12 +26,19 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const result = await axios.post(uri, form);
-      setPlantas([...plantas, result.data]);
+      if (form.id) {
+        // Editar planta existente
+        const result = await axios.patch(`${uri}/${form.id}`, form);
+        setPlantas(plantas.map(p => p.id === form.id ? result.data : p));
+      } else {
+        // Nova planta
+        const result = await axios.post(uri, form);
+        setPlantas([...plantas, result.data]);
+      }
       setForm({ nome: '', nomeCientifico: '', descricao: '', imagem: '' });
       setShowModal(false);
     } catch (err) {
-      alert('Erro ao cadastrar planta!');
+      alert('Erro ao salvar planta!');
     }
   };
 
@@ -35,6 +50,12 @@ function App() {
     } catch (err) {
       alert('Erro ao excluir planta!');
     }
+  };
+
+  const handleEdit = (id) => {
+    const planta = plantas.find(planta => planta.id === id);
+    setForm({ ...planta });
+    setShowModal(true);
   };
 
   useEffect(() => {
@@ -61,8 +82,8 @@ function App() {
               <p><b>Descrição:</b> {planta.descricao}</p>
               <img src={planta.imagem ? planta.imagem : 'logo.jpg'} alt={planta.nome} />
               <div className='faixa'>
+                <button onClick={() => handleEdit(planta.id)}>Editar</button>
                 <button onClick={() => handleDelete(planta.id)}>Excluir</button>
-                <button>Editar</button>
               </div>
             </div>
           ))
@@ -76,7 +97,8 @@ function App() {
       {showModal && (
         <section className='modal'>
           <div className='janela'>
-            <h2>Cadastrar Nova Planta</h2>
+            {/* Se form.id estiver definido, estamos editando uma planta existente */}
+            <h2>{form.id ? 'Editar Planta' : 'Cadastrar Nova Planta'}</h2>
             <form onSubmit={handleSubmit}>
               <input name="nome" placeholder="Nome" value={form.nome} onChange={handleChange} required />
               <input name="nomeCientifico" placeholder="Nome Científico" value={form.nomeCientifico} onChange={handleChange} required />
