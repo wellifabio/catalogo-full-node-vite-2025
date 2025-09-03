@@ -1,4 +1,4 @@
-body{
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,8 @@ body{
   color: var(--c4);
 }
 
-header, footer{
+header,
+footer {
   width: 100%;
   height: 10vh;
   background-color: var(--c1);
@@ -18,34 +19,50 @@ header, footer{
   justify-content: space-around;
 }
 
-main{
+main {
   width: 100%;
   height: 80vh;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
   background-color: var(--c1);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   overflow-y: auto;
+  gap: 1rem;
 }
 
-.card{
+.card {
   background-color: var(--c2);
   border: 1px solid var(--c3);
   border-radius: 8px;
   padding: 16px;
-  margin: 8px;
   width: 300px;
   text-align: center;
-  & img{
+
+  & img {
     max-width: 100%;
+    max-height: 250px;
     border-radius: 4px;
+  }
+
+  & p {
+    text-align: justify;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+
+  & button {
+    background-color: var(--t2);
+  }
+
+  & button:hover {
+    background-color: var(--t1);
   }
 }
 
-.faixa{
+.faixa {
   width: 100%;
   display: flex;
   justify-content: center;

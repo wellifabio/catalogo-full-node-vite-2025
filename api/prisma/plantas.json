@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"nome": "Comigo Ninguém Pode",
+		"nomeCientifico": "Dieffenbachia seguine",
+		"descricao": "Dieffenbachia seguine (Jacq.) Schott, conhecida pelos nomes comuns de comigo-ninguém-pode e aningapara, é uma planta da família das Araceae muito apreciada como ornamental de interiores, dada",
+		"imagem": "https://cdn.awsli.com.br/600x450/2446/2446161/produto/171051806/1c598ad1ee.jpg"
+	},
+	{
+		"id": 2,
+		"nome": "Azaléia",
+		"nomeCientifico": "Rhododendron simsii",
+		"descricao": "A Azaleia (Rhododendron simsii) é uma arbusto da família Ericaceae, também conhecida como azaleia-belga",
+		"imagem": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTLNq-8JPRLprJyqZpgr22pB_Uhj8Zd8gYqMeypY5hIGSqeiW6Uj-KszHhNgw9Tt2zBFBIkTAtCXnfZ5h6DnEtqGMuCX4CQtQ"
+	},
+	{
+		"id": 3,
+		"nome": "Orquídea",
+		"nomeCientifico": "Orchidaceae",
+		"descricao": "As orquídeas (família Orchidaceae) são uma das maiores famílias de plantas com flores, com uma grande diversidade de formas e cores.",
+		"imagem": "https://cdn.awsli.com.br/600x450/2446/2446161/produto/211153233/fotor_2023-4-3_18_23_13-huagyk.jpg"
+	},
+    {
+        "id": 4,
+        "nome": "Lírio da Paz",
+        "nomeCientifico": "Spathiphyllum wallisii",
+        "descricao": "O Lírio da Paz (Spathiphyllum wallisii) é uma planta perene da família Araceae, conhecida por suas folhas verdes escuras e flores brancas.",
+        "imagem": "https://casacor.abril.com.br/_next/image?url=https%3A%2F%2Fdl7j1x8aohko6.cloudfront.net%2F2024%2F07%2Fspathiphyllum-4260803_1280.webp&w=3840&q=75"
+    }
+]

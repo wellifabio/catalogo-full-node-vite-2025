@@ -1,12 +1,3 @@
-  const handleDelete = async (id) => {
-    if (!window.confirm('Tem certeza que deseja excluir esta planta?')) return;
-    try {
-      await axios.delete(`${uri}/${id}`);
-      setPlantas(plantas.filter(planta => planta.id !== id));
-    } catch (err) {
-      alert('Erro ao excluir planta!');
-    }
-  };
 import { useEffect, useState } from 'react';
 import './App.css';
 import axios from 'axios';
@@ -36,6 +27,16 @@ function App() {
     }
   };
 
+  const handleDelete = async (id) => {
+    if (!window.confirm('Confirma a exclusão desta planta?')) return;
+    try {
+      await axios.delete(`${uri}/${id}`);
+      setPlantas(plantas.filter(planta => planta.id != id));
+    } catch (err) {
+      alert('Erro ao excluir planta!');
+    }
+  };
+
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
@@ -55,10 +56,10 @@ function App() {
         {
           plantas.map(planta => (
             <div key={planta.id} className="card">
-              <h2>Planta: {planta.nome}</h2>
-              <p>Nome científico: {planta.nomeCientifico}</p>
-              <p>Descrição: {planta.descricao}</p>
-              <img src={planta.imagem} alt={planta.nome} />
+              <h2>{planta.nome}</h2>
+              <p><b>Binómeno:</b> {planta.nomeCientifico}</p>
+              <p><b>Descrição:</b> {planta.descricao}</p>
+              <img src={planta.imagem ? planta.imagem : 'logo.jpg'} alt={planta.nome} />
               <div className='faixa'>
                 <button onClick={() => handleDelete(planta.id)}>Excluir</button>
                 <button>Editar</button>
@@ -69,7 +70,7 @@ function App() {
       </main>
       <footer>
         <p>By wellifabio</p>
-        <button onClick={handleOpenModal} style={{ padding: '0.5rem 1.5rem', fontSize: '1rem', background: '#4caf50', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Novo</button>
+        <button onClick={handleOpenModal}>Novo</button>
       </footer>
 
       {showModal && (
@@ -80,10 +81,10 @@ function App() {
               <input name="nome" placeholder="Nome" value={form.nome} onChange={handleChange} required />
               <input name="nomeCientifico" placeholder="Nome Científico" value={form.nomeCientifico} onChange={handleChange} required />
               <textarea name="descricao" placeholder="Descrição" value={form.descricao} onChange={handleChange} required />
-              <input name="imagem" placeholder="URL da Imagem" value={form.imagem} onChange={handleChange} required />
+              <input name="imagem" placeholder="URL da Imagem" value={form.imagem} onChange={handleChange} />
               <div className='faixa'>
-                <button type="button" onClick={handleCloseModal} style={{ background: '#ccc', color: '#333', border: 'none', borderRadius: '4px', padding: '0.5rem 1rem' }}>Cancelar</button>
-                <button type="submit" style={{ background: '#4caf50', color: '#fff', border: 'none', borderRadius: '4px', padding: '0.5rem 1rem' }}>Salvar</button>
+                <button type="button" onClick={handleCloseModal}>Cancelar</button>
+                <button type="submit">Salvar</button>
               </div>
             </form>
           </div>
